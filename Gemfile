@@ -8,13 +8,13 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.2.0'
 
 gem 'ey_config'
-gem 'rails_autolink'
-gem 'simple_form'
+gem 'rails_autolink', '>= 1.1.6'
+gem 'simple_form', '>= 3.1.0'
 
 # Assets
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'jquery-rails', '>= 4.0.3'
+gem 'sass-rails', '>= 5.0.1'
+gem 'coffee-rails', '>= 4.1.0'
 gem 'uglifier'
 
 platform :ruby do
