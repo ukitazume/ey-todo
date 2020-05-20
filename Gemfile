@@ -5,22 +5,22 @@ end
 
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2.0'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 
 gem 'ey_config'
-gem 'rails_autolink'
-gem 'simple_form'
+gem 'rails_autolink', '>= 1.1.6'
+gem 'simple_form', '>= 4.0.0'
 
 # Assets
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'jquery-rails', '>= 4.1.1'
+gem 'sass-rails', '>= 5.0.5'
+gem 'coffee-rails', '>= 4.2.2'
 gem 'uglifier'
 
 platform :ruby do
   gem 'mysql2'
   gem 'pg'
-  gem 'activerecord-postgis-adapter', '3.0.0.beta2'
+  gem 'activerecord-postgis-adapter', '3.1.2'
   gem 'sqlite3'
 
   gem 'newrelic_rpm'
