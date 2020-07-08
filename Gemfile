@@ -12,7 +12,7 @@ gem 'rails_autolink'
 gem 'simple_form'
 
 # Assets
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.4'
 gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
