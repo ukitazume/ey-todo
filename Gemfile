@@ -5,10 +5,10 @@ end
 
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2.0'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 
 gem 'ey_config'
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.6'
 gem 'simple_form'
 
 # Assets
