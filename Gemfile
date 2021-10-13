@@ -25,7 +25,7 @@ platform :ruby do
 
   gem 'newrelic_rpm'
   gem 'unicorn'
-  gem 'puma'
+  gem 'puma', '>= 4.3.9'
   gem 'json'
   gem 'minitest'
   gem 'psych'
